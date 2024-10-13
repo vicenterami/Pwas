@@ -1,0 +1,9 @@
+{
+    "name": "Mi Aplicación P5.js",
+    "short_name": "P5App",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#000000"
+  }
+  

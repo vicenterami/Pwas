@@ -1,0 +1,142 @@
+link chat gtp
+https://chatgpt.com/share/670c4d14-23b0-8007-a68a-8885d0ea639f
+
+me estan pidiendo un tutor de mecanografia 
+que me ayude a mejorar la velocidad de teclear
+, mi idea es poner un pequeño tutorial de como
+ poner bien las manos en el teclado con el indice de
+  la mano derecha en la tecla j y la mano izquierda 
+  con su indice en la tecla f, (en las teclas con relieve), 
+  puedo tambien poner un icono para mas claridad, luego quiero 
+  cambies suavemnte a una pagina o en la misma 
+  pero que señales que es lo que debe hacer a continuacion, 
+  que me pongas un texto y un input, el usuario deberá 
+  teclar el texto que aparece sobre el input, pueden ser 
+  pequeñas frases, y el programa debera poner de un color
+   distinto en que parte va escribiendo el usuario, debera 
+   señalar cuando se equivoco el usurio, este usuario podra
+    borrar lo que se equivoco y retomar en donde se quedo.
+cuando se complete correctamente las comparaciones de lo que 
+tipeo el usuario con el texte proporcionado por el programa,
+ el usurio podra teclear enter o cuando se complete simplemente 
+ pase al siguiente texto, finalmente tras 5 textos saltara el 
+ puntaje y en que puede mejorar.
+
+
+ok con el codigo solo veo un milisegundo el tutorial 
+quiero que se vea todo el tiempo y cuando el usuario 
+presione que el boton de continuar, ademas no se puede 
+ver la frase que debe escribir el usuario 
+
+
+
+el problema que estoy teniendo con el codigo es que 
+solo se ve un milisegundo ell tutorial el cual quiero 
+verlo consistentemente hasta que el usuario se prepare para 
+pasar al PWA de tipografia , este codgigo hecho en processing 
+en modo p05 quiro que le enseñe al usuario a corregir su 
+escritura en el teclado, quiero que que le muestre sobre 
+su input las frases que devera escribir , quiero que valla 
+comparando en tiempo real cada letra que escribe con las 
+frases sobre su input y las resalte con un color como el 
+amarillo y si se equivoca en algo lo resalte en rojo desde
+ donde se equivoco
+
+
+
+ahora esta funcionando mejor pero no se por que solo funciona en el puerto 
+  http://169.254.188.52:8080 este no  
+  http://192.168.162.1:8080 este si  
+  http://192.168.1.84:8080 este lo mismo , si 
+  http://127.0.0.1:8080 este no , solo se ve un input
+en node, en python directamente no lo lograpues aun sigue
+ tratando de cargar un logo el cual no quiero
+pero al intentar ejecutrarlo directamente en procesing no logra 
+dar nada solo da todo en blanco al igual que en el puerto
+ http://169.254.188.52:8080, ademas en el codigo cuando voy
+  a los puertos que si funcionan, al intentar hacer la mayuscula 
+  el input lo toma y me pone literalmente mayuscula, eso no quiero,
+   lo mismo con shift , el programa me lo escribe literalmente, por 
+   lo que no me deja completar la frase pues la primera letra esta 
+   en mayuscula lo cual en este codigo es imposible de teclear
+
+
+
+Como puedo agregar mas frases para que el usuario practique en mi aplicacion de tipografia
+
+
+
+gracias, se soluciono, agregando eso sobre limpiar la
+ cache al principio de sw.js eso si con python me fue 
+ imposible pues suige intentando buscar el icon, por otro lado 
+ sigo intentando que no me capture la mayuscula y el shift 
+ pero no puedo, ayudame
+
+
+ este codigo funciona bien con esto
+  pero no logro ver de ninguna manera mi puntaje al finalizar 
+  pues no encuentro mi puntaje, quizas no maneja bien el cuando 
+  finaliza para mostrar el puntaje, ademas no me agrada 
+  la forma en la que maneja las letras pues aqui no logro
+   ver exactamente que letra me equivoque, ademas donde 
+   realmente no aparece que fue lo que escribi, cuando
+    en lo que tengo que escribir hay un espacio no se ve que
+     escribi algo detras y no se puede ver en que se equivoca 
+     el usuario 
+
+
+
+
+tengo 2 problemas principales con este 
+codigo, 1 no puedo ver el puntaje al finalizar
+ los textos, 2 no sigue corrigiendo cuando 
+ llega al finalizar , me explico al finalizar 
+ con su punto, si no presiono el enter puedo 
+ seguir escribiendo y esta mal pues el usuario 
+ no visualiza en que se equivoco y al presionar
+  enter no pasa nada, ademas el usuario no tiene
+   forma de saber que debe presionar enter para 
+   pasar al siguiente texto, podrias señalarselo
+    cambiando el texto superior por su tutorial 
+
+
+
+
+con este codigo , solo para probar hazme
+ que para estavez, despus te indico que 
+ pongas mas textos, solo quiero probarlo
+  con 1 para ver de inmedit o el puntaje,
+   esmas, quiero que en una esquinita tengas 
+   siempre un boton que al presionarlo yo pueda 
+   ve el puntaje, es mas quiero un texto
+    que se actualice cada vez que aprete 
+    un boton indicando el puntaje
+
+
+
+al codigo necesito poner mas informacion, 
+quiero que en el tutorial se pueda poner la 
+disposicion de las manos con el indice sus manos 
+en las letras con relieves, es decir, el indice de 
+la mano derecha en la letra j y el indice de la mano 
+izquierda en la letra f , luego en la vizualizacion
+ necesito que se muestre bien el puntaje y en general
+  el responsive pues la 
+caja que envuelve al puntaje no lo cierra bien es decir 
+la palabra se desvorda overflow
+
+
+
+perfecto ahora con lo mimo dame mas frases 
+a escribir y cuando las finalices que se pueda
+ observar el puntaje en general como numero de letras correctas
+ sobre total y luego recienc que si el usuario lo desesa,
+  este pueda reiniciar el programa
+
+
+
+mal , me borraste lo del tutoria, no se logra 
+escribir nada, me borraste el puntaje de arriba a
+ la derecha y el de abajo mal 
+, solo quiero agregar mas frases y al final mostrar
+puntaje + boton de reiniciar progama
