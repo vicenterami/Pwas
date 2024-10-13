@@ -1,0 +1,19 @@
+el codigo tengo que hacerlo una PWA
+evaluara preguntas mas complejas.
+
+cual es la diferencia entre que sea directo o indirecto
+
+emulador blue stac, no se si sirve en ios, para ver el telefono en pc
+
+para convertir el proyecto a pwa solo usa el codigo del profe y 
+ejecuta el codigo, ej01, ej02, ej03, pdf
+usando el conversor, cada proyecto en una carpeta,
+
+ponemos el codigo y lo uso en la carpeta de los codigos
+
+ahi se pone elcoigo python, 
+cual jej quier e convertir?
+
+podemos crear el repositorio y coloco los archivos o uso la linea de comandos
+
+solo enviamos el enlace del pwa y debe esta subido a github
